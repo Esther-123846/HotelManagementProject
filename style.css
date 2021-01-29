@@ -1,0 +1,101 @@
+/* CSS for contents.php */
+#full_screen{
+	width: 100% ;
+	height: auto;
+}
+#header{
+	width: 100% ;
+	height: 100px;
+	background: lightblue;
+	opacity: 20;
+}
+#head1{
+	width: 30% ;
+	height: 100px;
+	float: left;
+}
+#head2{
+	width: 70%;
+	height: 100px;
+	float: left;
+}
+ul li{
+	list-style: none;/* removes bullets from list items*/
+	float: left;
+	width: 16%;
+	height: 60px;
+	line-height: 50px;
+	text-align: left;
+}
+a{
+	text-decoration: none;/* removes underline from list items*/
+	color: green;
+}
+h1{
+	padding: 10px;
+	/*background-color: silver;*/
+}
+#body{
+	width: 100%;
+	height: 500px;
+}
+#bodyc{
+	background-size: 100% 520px ;
+	background-repeat: no-repeat;
+}
+
+/*th{
+	padding: 3px 50px 0px 80px;[top right bottom left]
+} this can be used instead of "center tag"*/
+#Branches{
+	width: 100%;
+	height: 500px;
+}
+#b1{
+	width: 33.3% ;
+	height: auto;
+	float: left;/* images can be displayed side by side*/
+
+}
+#b2{
+	width: 33.3% ;
+	height: auto;
+	float: left;
+
+}
+#b3{
+	width: 33.3% ;
+	height: auto;
+	float: left;
+
+}
+/* CSS for reg.php */
+#bg{
+	background-size: 100% 530px;
+	background-repeat: no-repeat;
+}
+#form input, select {
+    display: flex;
+    flex-flow: row nowrap;
+    /*justify-content: space-between;*/
+    width: 175px;
+   /*padding-bottom: 1rem; /*adjusts the position of text in textboxes*/
+    margin-left: 23rem;/*text boxes will be displayed vertically straight*/
+    margin-top: -22px;/*allows to adjust the textboxes vertically*/ 
+}
+
+	/* CSS for ContactUs.html */
+#bgc{
+	background-size: 100% 585px;
+	background-repeat: no-repeat;
+}
+h4{
+	display: flex;
+    margin-left: 22rem;
+    
+}
+	/* CSS for About.html */
+	#bodya{
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
